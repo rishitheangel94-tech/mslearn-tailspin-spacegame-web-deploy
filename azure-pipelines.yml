@@ -15,7 +15,6 @@ stages:
   - job: 'Build'
     displayName: 'Build job'
     pool:
-      vmImage: 'ubuntu-22.04'
       demands:
       - npm
 
