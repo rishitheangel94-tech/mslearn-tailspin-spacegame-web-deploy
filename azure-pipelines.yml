@@ -88,7 +88,7 @@ stages:
   jobs:
   - deployment: Deploy
     pool:
-      vmImage: 'ubuntu-22.04'
+      name: Default
     environment: dev
     variables:
     - group: Release
